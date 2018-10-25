@@ -6,10 +6,12 @@ class TestUM(unittest.TestCase):
         pass
  
     def test_numbers_3_4(self):
+        print("Test numbers")
         self.assertEqual( 12, 12)
  
     def test_strings_a_3(self):
-        self.assertEqual( 'aaa', 'aaa')
+        print("Test String")
+        self.assertEqual( 'aab', 'aaa')
  
 if __name__ == '__main__':
     unittest.main()
